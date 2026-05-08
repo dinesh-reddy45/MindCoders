@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form class="form1">
+        <h2>Application Form</h2>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" >
+        <label for="LastName">Last Name:</label>
+        <input type="text" id="LastName"><br><br>
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob">
+        <label for="age">Age:</label>
+        <input type="number" id="age" max="100"><br><br>
+        <label for="gender" >Gender:</label>
+            <select id="gender" name="Gender">
+                <option  value="Male">Male</option>
+                <option  value="Female">Female</option>
+            </select>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="Enter email address"><br><br>
+        <label>Position Avaliable:</label>
+        <input type="radio" id="position" name="position" value="Junior Developer">
+        <label for="position">Junior Developer</label>
+        <input type="radio" id="position" name="position" value="Mid-level Developer">
+        <label for="position">Mid-level Developer</label>
+        <input type="radio" id="position" name="position" value="Senior Developer">
+        <label for="position">Senior Developer</label><br><br>
+        <label>Programming Language:</label>
+        <input type="checkbox" id="programming" value="Java">
+        <label for="programming">Java</label>
+        <input type="checkbox" id="js" value="JavaScript">
+        <label for="js">JavaScript</label>
+        <input type="checkbox" id="py" value="Python">
+        <label for="py">Python</label><br><br>
+        <label for="password" >Password:</label>
+        <input type="password" id="password">
+        <label for="Confirm Password" >Confirm Password:</label>
+        <input type="password" id="Confirm Password"><br><br>
+        <button>Submit</button>
+        <button>Reset</button>
+    </form><br><br>
+    <form>
+        <h2>Login form using HTML and CSS</h2>
+        <h4>Sign in</h4>
+        <p>Sign in with your username and password</p>
+        <label for="username">Your Username</label>
+        <input type="text" placeholder="Enter Username"><br><br>
+        <label for="password">Your Password</label>
+        <input type="password" placeholder="Enter Password"><br>
+        <button>Login</button><br><br>
+        <label>Not a member?<label>
+        <a href="">Registe here!</a>
+    </form><br><br><br>
+    <form>
+        <fieldset>
+            <h2>Registration Form</h2>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" placeholder="Enter Firstname"><br><br>
+            <label for="LastName">Last Name:</label>
+            <input type="text" id="LastName" placeholder="Enter Lastname"><br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="Enter email address"><br><br>
+            <label for="password" >Password:</label>
+            <input type="password" id="password"><br><br>
+            <label>Gender:</label>
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="gender" value="male">
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="gender" value="Female">
+            <label for="gender">Others</label>
+            <input type="radio" id="gender" name="gender" value="others"><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" max="100"><br><br>
+            <label >Preference:</label>
+            <label for="acry">Acrylic Painting</label>
+            <input type="checkbox" id="acry" >
+            <label for="oil">Oil Painting</label>
+            <input type="checkbox" id="oil" >
+            <label for="water">Water Color Painting</label>
+            <input type="checkbox" id="water" ><br><br>
+            <label for="occ">Occupation:</label>
+
+            <select>
+                <option>Student</option>
+            </select><br><br>
+            <label>Bio:</label>
+            <input type="textfield" ><br><br>
+            <button>RESET</button>
+            <button>SUMIT</button>
+
+        </fieldset>
+    </form><br><br>
+    <form>
+        <label> Text:</label>
+      <input type="text" placeholder="Your name" /><br><br>
+      <label> password:</label>
+      <input type="password" placeholder="Secret password" /><br><br>
+      <label>Email:</label>
+      <input type="mail" placeholder="Your email" /><br><br>
+      <label> URL:</label>
+      <input type="url" placeholder="http://127.0.0.1:5500/allforms_typedemo.html" /><br><br>
+      <label> Telephone:</label>
+      <input type="number" placeholder="9876543210" /><br><br>
+      <label>search:</label>
+      <input type="search" placeholder="searchitems"></search><br><br>
+      <label> Number:</label>
+      <input type="number" /><br><br>
+      <label>Range:</label>
+      <input type="range" /><br><br>
+      <label> Date:</label>
+      <input type="date" />
+      <label> Time:</label>
+      <input type="time" />
+      <label> week:</label>
+      <input type="week" />
+      <label> month:</label>
+      <input type="month" /><br><br>
+      <label> File:</label>
+      <input type="file" /><br><br>
+      <label>color:</label>
+      <input type="color" /> <br><br>
+      <input type="checkbox" <option value="I agree to this terms">I agree to this terms</option> <br><br>
+      <input type="checkbox" <option value="Subscribe to the newletters">Subscribe to the newletters</option><br><br>
+      <label>Gender:</label><br><br>
+      <input type="radio" <option value="male" name="gender">male</option><br> <br>
+      <input type="radio" <option value="female" name="gender">female</option><br><br>
+      <input type="radio" <option value="other" name="gender">other</option><br><br>
+      <label>Country(singel cost):</label>
+      <select name="select">
+        <option value="---select--">---select--</option>
+        <option value="china">china</option>
+        <option value="India">India</option>
+      </select><br><br>
+      <label>message:</label>
+      <textarea>write something</textarea><br><br>
+      <button>submit form</button>
+      <button>Reset form</button>
+
+
+
+    </form>
+</body>
+</html>
