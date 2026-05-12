@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table colors</title>
+    <style>
+        thead tr:first-child{
+            background-color: aquamarine;
+        }
+        tbody tr:last-child{
+            background-color: #f44336;
+
+        }
+        tbody tr:first-child{
+            background-color: blue;
+
+        }
+        tbody tr:nth-child(1) , tr:nth-child(2){
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="font-weight: bold; text-align:center">Table-1:</h3>
+    <table border="1" class="1" style="width: 50%; height: 220px; text-align:center; margin:auto;">
+        <thead>
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th rowspan="6">Hours</th>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thurs</td>
+            <td>Fri</td>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Arts</td>
+        </tr>
+         <tr>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Arts</td>
+        </tr>
+        <tr style="font-weight:bold">
+            <td colspan="5">LUNCH</td>
+        </tr> 
+        <tr>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>Computer</td>
+            <td>Maths</td>
+            <td>Computer</td>
+        </tr>
+        </tbody>
+</body>
+</html>
